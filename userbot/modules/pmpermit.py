@@ -19,7 +19,7 @@ from userbot.events import register
 UNAPPROVED_MSG = ("`Hello! This is a bot.`\n\n"
                   "`Sorry I'm not in a condition of approving PM's anyone so it isn't worth messaging me.`\n\n"
                   "`Instead, go to` @Iam_Rubybot `and wait for my reply.`\n\n"
-                  "`Also don't spam the PM's you'll get blocked...😈\n\n`"
+                  "`Also don't spam the PM you'll get blocked...😈\n\n`"
                   "`Regards,`\n"
                   "`RubyRox ^_^`")
 # =================================================================
