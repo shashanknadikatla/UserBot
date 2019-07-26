@@ -145,7 +145,7 @@ async def approvepm(apprvpm):
         try:
             approve(uid)
         except IntegrityError:
-            await apprvpm.edit("`This bsdka may already be approved.`")
+            await apprvpm.edit("`This bsdk may already be approved.`")
             return
 
         await apprvpm.edit(
