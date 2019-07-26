@@ -45,7 +45,7 @@ async def cry(e):
 @register(outgoing=True, pattern="^.fp$")
 async def facepalm(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("🤦‍♂")
+        await e.edit("🤦🏻‍♂")
 
 @register(outgoing=True, pattern="^.moon$")
 async def _(event):
@@ -65,7 +65,7 @@ async def source(e):
 @register(outgoing=True, pattern="^.readme$")
 async def reedme(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("https://github.com/Spyderzz/UserBot/blob/master/README.md")
+        await e.edit("https://github.com/RubySudo/UserBot/blob/master/README.md")
 
 @register(outgoing=True, pattern="^.disapprove$")
 async def disapprovepm(disapprvpm):
@@ -88,7 +88,7 @@ async def disapprovepm(disapprvpm):
             name0 = str(aname.first_name)
 
         await disapprvpm.edit(
-            f"[{name0}](tg://user?id={disapprvpm.chat_id}) `bsdka Disapproved to PM!`"
+            f"[{name0}](tg://user?id={disapprvpm.chat_id}) `bsdk Disapproved to PM!`"
             )
 
         if BOTLOG:
