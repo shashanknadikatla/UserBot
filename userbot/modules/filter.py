@@ -49,7 +49,7 @@ async def add_new_filter(new_handler):
         for i in range(2, len(kek)):
             string = string + " " + str(kek[i])
         add_filter(str(new_handler.chat_id), kek[1], string)
-        await new_handler.edit("```Filter added successfully```")
+        await new_handler.edit("```Filter added successfully by RubyRox```")
 
 
 @register(outgoing=True, pattern="^.stop\\s.*")
@@ -64,7 +64,7 @@ async def remove_a_filter(r_handler):
         message = r_handler.text
         kek = message.split(" ")
         remove_filter(r_handler.chat_id, kek[1])
-        await r_handler.edit("```Filter removed successfully```")
+        await r_handler.edit("```Filter removed successfully by RubyRox```")
 
 
 @register(outgoing=True, pattern="^.rmfilters$")
