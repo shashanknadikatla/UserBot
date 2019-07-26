@@ -36,13 +36,13 @@ async def fastpurger(purg):
             purg.chat_id,
             "`Fast purge complete!\n`Purged "
             + str(count)
-            + " messages. **This auto-generated message shall be self destructed in 2 seconds.**",
+            + " messages. **This auto-generated message shall be self destructed in 1 second.**",
         )
 
         if BOTLOG:
             await purg.client.send_message(
                 BOTLOG_CHATID, "Purge of " +
-                str(count) + " messages done successfully."
+                str(count) + " messages done successfully by RubyRox."
             )
         await sleep(2)
         await done.delete()
@@ -66,12 +66,12 @@ async def purgeme(delme):
             delme.chat_id,
             "`Purge complete!` Purged "
             + str(count)
-            + " messages. **This auto-generated message shall be self destructed in 2 seconds.**",
+            + " messages. **This auto-generated message shall be self destructed in 1 second.**",
         )
         if BOTLOG:
             await delme.client.send_message(
                 BOTLOG_CHATID, "Purge of " +
-                str(count) + " messages done successfully."
+                str(count) + " messages done successfully by RubyRox."
             )
         await sleep(2)
         i = 1
