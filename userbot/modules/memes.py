@@ -184,9 +184,9 @@ FACEREACTS = [
     "(｡◕‿◕｡)",
 ]
 RUNSREACTS = [
-    "`Runs to pedo Mukesh`",
+    "`Runs to pro RubyRox`",
     "`Runs far, far away from earth`",
-    "`Running faster than supercomputer coz I'm Spyderzzz Frand`",
+    "`Running faster than supercomputer coz I'm RubyRox Frand`",
     "`Runs to Rose`",
     "`This Group is too kensurass to deal with.`",
     "`Cya bois`",
@@ -233,7 +233,7 @@ PRO_STRINGS = [
      "`This gey is pro as phack....... Muh m Lega Bsdk` 🙂",
      "`Pros here -_- Time to Leave`",
      "`What are you bsdk?Human or Gawd` (+_+)",
-     "`Aye pedo gey, send moni pls`",
+     "`Aye peru gey, send moni pls`",
      "`U iz pru & I iz nub`",
      "`PROness Level : 696969`",
 ]
@@ -427,7 +427,7 @@ async def zal(zgfy):
 @register(outgoing=True, pattern="^hi$")
 async def hoi(hello):
     """ Greet everyone! """
-    await hello.edit("Hoi!😄")
+    await hello.edit("Hoi!🤘🏻")
                           
                           
 @register(outgoing=True, pattern="^.hack$")
@@ -437,7 +437,7 @@ async def hacking (hacked):
         if await hacked.get_reply_message():
             await hacked.edit(
                 "`Targeted Account Hacked successfully 😎......`\n"
-                "`Pay 6969$ to` @spyderzzz `To Remove This Hack...`\n"
+                "`Pay 6969$ to` @RubyRox `To Remove This Hack...`\n"
             )
 
 @register(outgoing=True, pattern="^.kill$")
@@ -446,7 +446,7 @@ async def killing (killed):
     if not killed.text[0].isalpha() and killed.text[0] not in ("/", "#", "@", "!"):
         if await killed.get_reply_message():
             await killed.edit(
-                "`Targeted User was Killed successfully 😈......`\n"
+                "`Targeted User was Killed successfully by RubyRox 😈......`\n"
 		"#sad_reacts_only\n"
             )
 			  
@@ -557,7 +557,7 @@ async def claptext(memereview):
         elif textx:
             message = textx.text
         else:
-            await memereview.edit("`Hah, I don't clap pointlessly!`")
+            await memereview.edit("`Haha, I don't clap pointlessly!`")
             return
         reply_text = "👏 "
         reply_text += message.replace(" ", " 👏 ")
