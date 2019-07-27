@@ -232,8 +232,8 @@ GEY_STRINGS = [
 PRO_STRINGS = [
      "`This gey is pro as phack....... Muh m Lega Bsdk` 🙂",
      "`Pros here -_- Time to Leave`",
-     "`What are you bsdk?Human or Gawd` (+_+)",
-     "`Aye peru gey, send moni pls`",
+     "`What are you bsdk? Human or Gawd` (+_+)",
+     "`Oye peru gey, send moni pls`",
      "`U iz pru & I iz nub`",
      "`PROness Level : 696969`",
 ]
