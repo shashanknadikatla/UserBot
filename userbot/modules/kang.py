@@ -49,7 +49,7 @@ async def kang(args):
             image = await resize_photo(photo)
             splat = args.text.split()
             if not emojibypass:
-                emoji = "🤔"
+                emoji = "😁"
             pack = "1"
             if len(splat) == 3:
                 pack = splat[2]  # User sent both
@@ -125,7 +125,7 @@ async def kang(args):
                     await bot.send_read_acknowledge(conv.chat_id)
 
             await args.edit(
-                f"Sticker Stolen by RubyRox, now run away and take [this](t.me/addstickers/{packname})",
+                f"Sticker Stolen by @RubyRox, now run away and take [this](t.me/addstickers/{packname})",
                 parse_mode='md'
             )
 
